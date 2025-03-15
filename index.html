@@ -30,6 +30,7 @@
         <button class="btn signup-btn">Sign Up</button>
       </div>
     </nav>
+    <span class="name-user">Welcome<b> Kamronbek</b></span>
     <!--TONY SECTION  -->
     <!-- HUMOYUN SECTION -->
     <!-- OQILA SECTION -->
@@ -40,7 +41,7 @@
     <!-- OTABEK SECTION -->
     <!-- FOOTER SECTION -->
     <!-- INPUT SECTION -->
-    <section class="section-inputs hide">
+    <section class="section-login">
       <div class="form-container">
         <h2 class="inputs-login">Login</h2>
         <img class="close-icon" src="./icons/close_icon.svg" alt="close" />
@@ -64,6 +65,41 @@
         </div>
 
         <button class="inputs-btnLogin">Submit</button>
+      </div>
+    </section>
+    <!-- SECTION SIGN-UP -->
+    <section class="section-signUp hide">
+      <div class="signup-parent">
+        <h2 class="signUp-h2">Sign Up</h2>
+        <img class="close-signup" src="./icons/close_icon.svg" alt="icon" />
+
+        <div class="child-signUp">
+          <label for="name">Enter your name</label>
+          <input
+            type="text"
+            id="name"
+            class="signUp-nameInput"
+            placeholder="example: John"
+          />
+        </div>
+        <div class="child-signUp">
+          <label for="login">Enter your login</label>
+          <input
+            type="text"
+            id="login"
+            class="signUp-loginInput"
+            placeholder="example: JohnDev"
+          />
+        </div>
+        <div class="child-signUp">
+          <label for="password">Enter your password</label>
+          <input type="password" id="password" class="signUp-passwordIn" />
+        </div>
+        <div class="child-signUp">
+          <label for="returnPass">return your password</label>
+          <input type="password" id="returnPass" class="signUp-rePassword" />
+        </div>
+        <button class="inputbtn-signUp">Submit</button>
       </div>
     </section>
   </body>
