@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10.5rem;
+  padding-right: 12rem;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  animation: navbarFade 1.5s ease forwards;
+}
+
+@keyframes navbarFade {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.nav-ul {
+  display: flex;
+  gap: 5rem;
+}
+.list-item {
+  list-style-type: none;
+}
+.list-item > a {
+  text-decoration: none;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  font-family: inter500;
+  color: var(--navbar-color);
+}
+.login-btn {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+.signup-btn {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
