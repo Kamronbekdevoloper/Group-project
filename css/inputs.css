@@ -1,4 +1,4 @@
-.section-inputs {
+.section-login {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,6 +69,107 @@ label {
   gap: 2px;
 }
 .close-icon {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  filter: invert(80%);
+}
+
+/*  */
+/*  */
+/* SIGNUP SECTION */
+.section-signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
+  position: relative;
+}
+
+.signUp-loginInput {
+  width: 26rem;
+  max-width: 36rem;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inter500;
+}
+.signUp-nameInput {
+  width: 26rem;
+  max-width: 36rem;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inter500;
+}
+.signUp-passwordIn {
+  width: 26rem;
+  max-width: 36rem;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inter500;
+}
+.signUp-rePassword {
+  width: 26rem;
+  max-width: 36rem;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inter500;
+}
+.inputbtn-signUp {
+  width: 26rem;
+  max-width: 36rem;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inter500;
+}
+.inputbtn-signUp:hover {
+  background: #0056b3;
+}
+.signUp-h2 {
+  font-size: inter600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  font-family: inter700;
+}
+label {
+  font-size: 1.6rem;
+
+  font-family: inter500;
+  justify-content: start;
+}
+.child-signUp {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.close-signup {
   position: absolute;
   top: 1rem;
   right: 2rem;

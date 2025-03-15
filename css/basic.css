@@ -49,7 +49,19 @@ html {
   color: #ffff;
 }
 .hide {
-  display: none;
-  visibility: hidden;
-  opacity: 0;
+  display: none !important;
+}
+.name-user {
+  margin-left: 10.5rem;
+  display: flex;
+  gap: 8px;
+  justify-content: start;
+  align-items: center;
+  line-height: 3.6rem;
+  font-size: 2.4rem;
+  font-family: inter600;
+  color: var(--headers-color);
+  b {
+    color: var(--primary-color);
+  }
 }
