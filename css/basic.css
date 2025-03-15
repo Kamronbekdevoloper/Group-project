@@ -1,0 +1,28 @@
+@font-face {
+  font-family: inter700;
+  src: url(../fonts/Inter/static/Inter_24pt-Bold.ttf);
+}
+@font-face {
+  font-family: inter600;
+  src: url(../fonts/Inter/static/Inter_24pt-SemiBold.ttf);
+}
+@font-face {
+  font-family: inter500;
+  src: url(../fonts/Inter/static/Inter_24pt-Medium.ttf);
+}
+@font-face {
+  font-family: inter400;
+  src: url(../fonts/Inter/static/Inter_24pt-Regular.ttf);
+}
+@font-face {
+  font-family: inter800;
+  src: url(../fonts/Inter/static/Inter_24pt-ExtraBold.ttf);
+}
+
+:root {
+  --primary-color: #4caf4f; /* Moviy */
+  --naturalgrey-color: #717171; /* Yashil */
+  --headers-color: #4d4d4d; /* To‘q kulrang */
+  --navbar-color: #18191f;
+  --black-color: #000000;
+}
