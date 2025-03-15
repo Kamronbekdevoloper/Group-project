@@ -26,3 +26,30 @@
   --navbar-color: #18191f;
   --black-color: #000000;
 }
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem 3.2rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: inter500;
+  background-color: var(--primary-color);
+  color: #ffff;
+}
+.hide {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
