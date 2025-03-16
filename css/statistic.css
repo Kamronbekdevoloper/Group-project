@@ -1,0 +1,17 @@
+.section-statistic {
+  display: flex;
+  width: 82%;
+  align-items: center;
+  justify-content: center;
+}
+.comment-statistic {
+  p {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    font-family: inter600;
+    color: var(--naturalgrey-color);
+    span {
+      color: var(--primary-color);
+    }
+  }
+}
