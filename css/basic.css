@@ -51,6 +51,7 @@ html {
 .hide {
   display: none !important;
 }
+
 .name-user {
   margin-left: 10.5rem;
   display: flex;
@@ -64,4 +65,12 @@ html {
   b {
     color: var(--primary-color);
   }
+}
+
+h1 {
+  font-family: inter600;
+  font-size: 6rem;
+  line-height: 7.6rem;
+  letter-spacing: 0%;
+  color: #4D4D4D;
 }
