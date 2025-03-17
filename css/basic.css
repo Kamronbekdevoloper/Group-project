@@ -53,6 +53,7 @@ html {
 }
 
 .name-user {
+  /* background-color: #f5f7fa; */
   margin-left: 10.5rem;
   display: flex;
   gap: 8px;
@@ -63,8 +64,26 @@ html {
   font-family: inter600;
   color: var(--headers-color);
   b {
+    /* background-color: #f5f7fa; */
     color: var(--primary-color);
   }
+}
+
+/* Animation for fading out */
+@keyframes fadeOut {
+  from {
+    /* background-color: #f5f7fa; */
+    opacity: 1;
+  }
+  to {
+    /* background-color: #f5f7fa; */
+    opacity: 0;
+  }
+}
+
+/* Apply the animation to the name-user element */
+.name-user.fade-out {
+  animation: fadeOut 0.5s ease-in-out forwards; /* Forwards keeps the final state */
 }
 
 h1 {

@@ -7,7 +7,7 @@
   padding-top: 2.2rem;
   padding-bottom: 2.2rem;
   animation: navbarFade 1.5s ease forwards;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 
 @keyframes navbarFade {
@@ -36,15 +36,23 @@
 }
 .login-btn {
   padding: 1rem 2rem;
-  background-color: #fff;
+  background-color: #f5f7fa;
   color: var(--primary-color);
   font-size: 1.4rem;
   line-height: 2rem;
   cursor: pointer;
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
 }
 .signup-btn {
   padding: 1rem 2rem;
   font-size: 1.4rem;
   line-height: 2rem;
   cursor: pointer;
+  a {
+    text-decoration: none;
+    color: #ffff;
+  }
 }
