@@ -68,7 +68,13 @@ document.addEventListener("DOMContentLoaded", function () {
         sessionStorage.setItem("currentUser", JSON.stringify(validUser));
         window.location.href = "./index.html"; // Redirect to your main page
       } else {
+        var audio = new Audio("./sounds/error.mp3");
+        audio.play().catch((error) => {
+          console.error("Audio playback failed:", error);
+        });
         alert("Invalid username or password!");
+
+        audio.play();
       }
     });
   }
