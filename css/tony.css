@@ -4,7 +4,7 @@ header {
   position: relative;
 }
 
-.container {
+.tony-container {
   padding: 16.15rem 8.4rem 2.15rem 14.4rem;
   display: flex;
 }
@@ -12,7 +12,7 @@ header {
 .text-content {
   width: 65.7rem;
   height: 27.6em;
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
   opacity: 1;
   transform: translateY(0);
 }
@@ -57,7 +57,7 @@ header {
 
 .pagination {
   position: absolute;
-  bottom: 20px; 
+  bottom: 20px;
   display: flex;
   gap: 8px;
   left: 65rem;
@@ -66,8 +66,8 @@ header {
 .dot {
   width: 10px;
   height: 10px;
-  background-color: #d3d3d3; 
-  border-radius: 50%; 
+  background-color: #d3d3d3;
+  border-radius: 50%;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -78,7 +78,7 @@ header {
 }
 
 .dot.active {
-  background-color: #28a745; 
+  background-color: #28a745;
   transform: scale(1.8);
 }
 
@@ -89,7 +89,7 @@ header {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: 0; 
+  z-index: 0;
 }
 
 .slide {
@@ -105,4 +105,3 @@ header {
   height: 100%;
   object-fit: cover; /* Ensures images scale properly */
 }
-

@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,62 +9,59 @@ body {
     background-color: #f5f7fa;
     color: #333;
     line-height: 1.6;
-}
+} */
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+.muyassar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
 }
 
 /* First Section Styles */
 .hero-section {
-    padding: 80px 0;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  /* padding: 80px 0; */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-image {
-    width: 45%;
+  width: 50%;
 }
 
 .hero-image img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-content {
-    width: 50%;
+  width: 50%;
 }
 
 .pixelgrade-title {
-    font-size: 32px;
-    color: #444;
-    margin-bottom: 20px;
-    line-height: 1.2rem;
+  font-family: inter600;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  color: #444;
+  margin-bottom: 2rem;
 }
 
 .hero-text {
-    line-height: 20px;
-    letter-spacing: 0%;
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 30px;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  font-family: inter400;
+  color: #666;
+  margin-bottom: 3rem;
 }
 
 .btn-learn-more {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 500;
-    transition: background-color 0.3s;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
 
 .btn-learn-more:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
