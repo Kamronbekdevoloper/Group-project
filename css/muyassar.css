@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* First Section Styles */
+.hero-section {
+    padding: 80px 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 45%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.pixelgrade-title {
+    font-size: 32px;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.2rem;
+}
+
+.hero-text {
+    line-height: 20px;
+    letter-spacing: 0%;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.btn-learn-more {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn-learn-more:hover {
+    background-color: #45a049;
+}
