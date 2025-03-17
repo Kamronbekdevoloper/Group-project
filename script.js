@@ -1,3 +1,8 @@
+window.addEventListener("pageshow", () => {
+  const audio = new Audio("sound.mp3"); // Replace with your sound file path
+  audio.play().catch((error) => console.log("Autoplay blocked:", error));
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const heroImg = document.querySelector(".hero-img");
   const dots = document.querySelectorAll(".dot");
