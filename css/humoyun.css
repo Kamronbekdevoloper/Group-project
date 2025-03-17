@@ -1,66 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-
-body {
-    background-color: #f8f9fa;
-}
-
 .clients-section {
-    padding: 60px 0;
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.section-title {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 10px;
-    font-weight: 600;
+.clients-title {
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: inter600;
 }
 
-.section-subtitle {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 40px;
+.clinets-subtitle {
+  font-size: 1.6rem;
+  color: #666;
+  margin-bottom: 4rem;
+  font-family: inter400;
 }
 
 .clients-logo-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    padding: 20px 0;
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .client-logo {
-    margin: 10px 20px;
-    opacity: 0.7;
-    transition: opacity 0.3s;
-    max-width: 100px;
-    height: auto;
+  margin: 10px 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  max-width: 100px;
+  height: auto;
 }
 
 .client-logo:hover {
-    opacity: 1;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    .clients-logo-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .client-logo {
-        margin: 10px;
-        max-width: 80px;
-    }
+  opacity: 1;
 }
