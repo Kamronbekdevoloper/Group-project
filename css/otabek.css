@@ -2,12 +2,14 @@
   width: 82%;
   margin: 0 auto;
   padding: 0 1rem;
+  margin-bottom: 4rem;
 }
 
 .parent {
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
+  margin-bottom: 4rem;
 }
 
 .marketing h4 {

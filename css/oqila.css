@@ -1,21 +1,13 @@
 .community-section {
-  /* background-color: #ffffff; */
-  margin-left: 14.4rem;
-  margin-right: 14.4rem;
-  padding: 2rem;
+  width: 82%;
+  margin: 4rem 14.4rem;
 }
 .community-container {
-  /* font-family: Arial, sans-serif; */
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
   color: #333;
   text-align: center;
 }
-
-/* .community-section {
-  
-} */
 
 .community-title {
   font-size: 3.6rem;
@@ -29,11 +21,12 @@
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: var(--naturalgrey-color);
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   font-family: inter400;
 }
 
 .community-cards {
+  /* margin-top: 2rem; */
   display: flex;
   justify-content: space-between;
   gap: 2rem;

@@ -1,62 +1,62 @@
-.teslasection{
-    background-color: #F5F7FA;
-    height: 39rem;
+.teslasection {
+  background-color: #f5f7fa;
+  height: 39rem;
+  margin-bottom: 4.8rem;
 }
 
-.teslaMain{
-    display: flex;
-    margin-bottom: 4.8rem;
+.teslaMain {
+  display: flex;
+  margin-bottom: 4.8rem;
 }
 
-.teslaimg{
-    width: 32.6rem;
-    height: 32.6rem;
-    margin-left: 9rem;
+.teslaimg {
+  width: 32.6rem;
+  height: 32.6rem;
+  margin-left: 9rem;
 }
 
-.teslap1{
-    font-family: inter500;
-    color: #717171;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    margin-bottom: 1.6rem;
+.teslap1 {
+  font-family: inter500;
+  color: #717171;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
-.teslah4{
-    font-family: inter600;
-    font-size: 2rem;
-    line-height: 2.8rem;
-    vertical-align: middle;
-    margin-bottom: 8px;
-    color: #4CAF4F;
+.teslah4 {
+  font-family: inter600;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  vertical-align: middle;
+  margin-bottom: 8px;
+  color: #4caf4f;
 }
 
-.teslap2{
-    font-family: inter400;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    vertical-align: middle;
-    color: #89939E;
-    margin-bottom: 3.2rem;
+.teslap2 {
+  font-family: inter400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+  color: #89939e;
+  margin-bottom: 3.2rem;
 }
 
-.teslaright{
-    margin-left: 7.8rem;
-    margin-top: 1.5rem;
+.teslaright {
+  margin-left: 7.8rem;
+  margin-top: 1.5rem;
 }
 
-.teslaimgs{
-    display: flex;
-    gap: 3rem;
-    align-items: center;
-    justify-content: center;
+.teslaimgs {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.teslah4bottom{
-    font-family: inter600;
-    font-size: 2rem;
-    line-height: 2.8rem;
-    vertical-align: middle;
-    color: #4CAF4F;
-    
+.teslah4bottom {
+  font-family: inter600;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  vertical-align: middle;
+  color: #4caf4f;
 }

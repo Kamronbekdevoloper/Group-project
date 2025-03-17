@@ -1,67 +1,42 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-    background-color: #f5f7fa;
-    color: #333;
-    line-height: 1.6;
-} */
-.hero-section {
+.pixelgrade-section {
+  display: flex;
   width: 82%;
-  display: flex;
-  padding: 0rem 14.4rem;
-  justify-content: space-between;
+  margin: 0 14.4rem;
 }
-.muyassar-container {
-  /* max-width: 1200px;
-  margin: 0 auto; */
-  /* padding: 0 20px; */
-  /* display: flex; */
-  /* width: 100%; */
-}
-
-/* First Section Styles */
 .herouz-section {
-  /* padding: 80px 0; */
-  background-color: #fff;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
+  gap: 5rem;
 }
-
-.hero-image {
+.pixelgrade-image {
+  display: flex;
   width: 50%;
+  img {
+    width: auto;
+    height: auto;
+  }
 }
-
-.hero-image img {
-  max-width: 100%;
-  height: auto;
+.pixelgrade-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1.6rem;
 }
-
-.hero-content {
-  width: 50%;
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
 .pixelgrade-title {
   font-family: inter600;
   font-size: 3.6rem;
   line-height: 4.4rem;
   color: #444;
-  margin-bottom: 2rem;
 }
 
-.hero-text {
+.pixelgrade-text {
   line-height: 2rem;
   font-size: 1.4rem;
   font-family: inter400;
   color: #666;
-  margin-bottom: 3rem;
 }
 
 .btn-learn-more {

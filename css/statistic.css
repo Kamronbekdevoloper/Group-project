@@ -1,16 +1,21 @@
 .stats-section {
-  width: 82%;
-  margin: 0rem 14.4rem;
-  padding: 6.4rem;
+  width: 100%;
+
+  background-color: #f5f7fa;
 }
 .parent-stats {
+  margin: 8.4rem 14.4rem;
   display: flex;
+  /* width: 100%; */
   gap: 7.2rem;
+  align-items: center;
+  justify-content: space-between;
 }
 .comment-statistic {
   display: flex;
+  width: 50%;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   gap: 8px;
 }
@@ -29,59 +34,21 @@
   font-family: inter400;
   color: #18191f;
 }
-/* 
-.icon-statistic {
-  display: flex;
-  width: 50%;
-}
-.statistic-items {
-  padding: 6px;
-  display: flex;
-  gap: 1.6rem;
-  .div-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 4.8rem;
-      height: 4.8rem;
-    }
-  }
-}
-.items-comment {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-
-  .span-1 {
-    font-size: 2.8rem;
-    line-height: 3.6rem;
-    font-family: inter700;
-    color: var(--naturalgrey-color);
-  }
-  span {
-    text-align: start;
-    font-size: 1.6rem;
-    font-family: inter400;
-    line-height: 2.4rem;
-  }
-} */
 
 .icon-statistic {
   display: flex;
+  align-items: end;
+  justify-content: end;
   width: 50%;
-  gap: 3rem; /* Add gap between items */
+  gap: 3rem;
   column-gap: 7rem;
-  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  flex-wrap: wrap;
 }
-
 .statistic-items {
   padding: 6px;
   display: flex;
   gap: 1.6rem;
-  align-items: center; /* Align items vertically */
+  align-items: center;
 }
 
 .div-img {
